@@ -16,4 +16,5 @@ This repository contains the documentation, scripts, and findings from an ethica
 - Serial UART adapter
 - curl, tcpdump, Wireshark
 
-## 📂 Directory Structure
+## ⚠️ Disclaimer
+This project is for **educational purposes only**. The Sonoff S31 was tested in a lab environment owned by the researcher.
