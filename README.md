@@ -1,1 +1,1 @@
-# sonoff-s31-ethical-hacking
+# Sonoff-S31-Ethical-Hacking
