@@ -32,7 +32,3 @@ They should **never** be used without permission on production or third-party de
 
 ---
 
-## 🛠️ Suggested Improvements
-- Convert these into platform-independent scripts (`.sh` for Linux/Mac or Python-based HTTP tools)
-- Capture `curl` exit codes for error handling
-- Analyze and compare `Status` values before/after each command
