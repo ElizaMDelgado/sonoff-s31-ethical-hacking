@@ -2,13 +2,13 @@
 
 This section documents confirmed and potential vulnerabilities discovered during ethical testing of the Sonoff S31 smart plug.
 
-| ID   | Title                        | Severity | Status     | Link |
-|------|------------------------------|----------|------------|------|
-| F01  | Unauthenticated Local API    | High     | Confirmed  | [View](unauthenticated_local_api.md) |
-| F02  | MQTT Configuration Injection | Medium   | Confirmed  | [View](mqtt_config_injection.md) |
-| F03  | OTA URL Misuse               | High     | Confirmed  | [View](ota_misuse.md) |
-| F04  | UART Shell Access            | High     | Confirmed  | [View](uart_shell_access.md) |
-| F05  | No Firmware Signature Check  | High     | Observed   | _Pending write-up_ |
+| ID   | Title                           | Severity | Status     |
+|------|----------------------------------|----------|------------|
+| F01  | Unauthenticated Local API Access | High     | Confirmed  |
+| F02  | MQTT Configuration Injection     | Medium   | Confirmed  |
+| F03  | OTA URL Misuse                   | High     | Confirmed  |
+| F04  | UART Shell Access                | High     | Confirmed  |
+| F05  | Missing Firmware Signature Check | High     | Observed   |
 
 ---
 
