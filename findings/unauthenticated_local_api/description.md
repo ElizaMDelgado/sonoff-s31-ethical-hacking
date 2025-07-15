@@ -1,7 +1,7 @@
 # 🛑 Unauthenticated Local API Access
 
 ## 📋 Summary
-The Sonoff S31 smart plug running Tasmota was found to accept unauthenticated HTTP requests from any device on the same network. This allows an attacker to control the plug or modify settings without logging in.
+The Sonoff S31 smart plug running Tasmota version 15.0.1  was found to accept unauthenticated HTTP requests from any device on the same network. This allows an attacker to control the plug or modify settings without requiring a login.
 
 ## 🧪 Example Commands
 ```bash
