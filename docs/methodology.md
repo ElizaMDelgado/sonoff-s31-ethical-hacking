@@ -1,4 +1,4 @@
-# 🧪 Testing Methodology: Sonoff S31 Ethical Hacking
+#  Testing Methodology: Sonoff S31 Ethical Hacking
 
 ## 1. Objective
 The primary goal of this project is to ethically analyze the security posture of the Sonoff S31 smart plug, identify potential vulnerabilities, and explore ways to improve its resilience against unauthorized access and misuse.
@@ -6,7 +6,7 @@ The primary goal of this project is to ethically analyze the security posture of
 ---
 
 ## 2. Testing Scope
-- **Device Tested**: Sonoff S31 (flashed with both stock firmware and Tasmota)
+- **Device Tested**: Sonoff S31 (flashed with both stock firmware and Tasmota version 15.0.1)
 - **Environment**: Isolated local Wi-Fi network, private lab setting
 - **Access Level**: Full physical access, including UART and firmware dump capabilities
 - **Ethical Boundaries**: No testing against production environments or third-party networks
