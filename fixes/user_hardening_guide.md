@@ -4,7 +4,7 @@ This guide shows how to protect your Sonoff S31 smart plug running Tasmota again
 
 ## ✅ Step 1: Enable Web UI Authentication
 
-1. Open the Tasmota Web UI
+1. Open the Tasmota Web UI (type in your Sonoffs S31 IP address in a browser) 
 2. Go to **Configuration → Configure Other**
 3. Set a strong **Web Admin Password**
 4. Click Save
