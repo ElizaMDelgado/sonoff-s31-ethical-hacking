@@ -30,3 +30,18 @@ curl "http://172.21.56.214/cm?cmnd=Info"
 - Can be used to fingerprint and track devices
 
 - Makes brute-force and spoofing attacks easier
+
+## Recommendation
+- Enable authentication for web and API access: SetOption13 1
+
+- Avoid exposing Tasmota to the public internet
+
+- Place the plug on a segmented IoT VLAN to limit who can access these endpoints
+
+##  Additional Recommendations
+
+- Require authentication for all API and web access using `SetOption13 1`
+- Isolate the plug on a separate VLAN or guest Wi-Fi network
+- Block port 80 from untrusted IP addresses at the router/firewall
+- Disable MQTT discovery using `SetOption19 0`
+- Monitor device logs for unexpected IP requests
